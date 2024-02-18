@@ -40,12 +40,12 @@ class Auto:
         self.motor=motor
         self.registro=registro                
 
-    def cantidadAsientos(self)
+    def cantidadAsientos(self):
         j=0
         for i in range(0,len(self.asientos)):
             if (type(self.asientos[i])==Asiento):
                 j=j+1
-        return i
+        return j
 
     def verificarIntegridad(self):
         prueba="Auto original"
