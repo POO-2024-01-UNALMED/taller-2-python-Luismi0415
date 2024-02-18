@@ -18,7 +18,7 @@ class Asiento:
             self.color=color  
             
 class Motor:
-    def _init_(self,numeroCilindros,tipo,registro):
+    def __init__(self,numeroCilindros,tipo,registro):
         self.numeroCilindros=numeroCilindros
         self.tipo=tipo
         self.regsitro=registro
@@ -32,7 +32,7 @@ class Motor:
 
 class Auto:
     cantidadCreados=0
-    def _init_(self, modelo,precio,asientos,marca,motor,registro):
+    def __init__(self, modelo,precio,asientos,marca,motor,registro):
         self.modelo=modelo
         self.precio=precio
         self.asientos=asientos
